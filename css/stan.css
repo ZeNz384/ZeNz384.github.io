@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document  */
+body {
+	margin: 0em;
+}
+.homelogo {
+	border: 0em;
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+#content_wrap {
+	display: table;
+	width: 100%;
+	background-color: #FFF;
+}
+#box {
+	display: table-row;
+}
+.content_left {
+	display: table-cell;
+	padding-left: 1.55em;
+}
+.content_right {
+	display: table-cell;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+#header {
+	background-image: url("../image/bg_top.jpg");
+	background-repeat: repeat-x;
+}
+.informatie_tekst {
+	font-size: 10pt;
+	width: 41em;
+	letter-spacing: 0.10em;
+	word-spacing: 0.15em;
+	line-height: 1.55em;
+}
+#contact_gegevens {
+	width: 12em;
+	margin-left: -0.45em;
+	background-color: #CFE344;
+	border: 0.05em #000000 solid;
+}
+#contact_gegevens dl {
+	margin-left: -1em;
+}
+#klanten_box {
+	margin-left: -0.50em;
+}
+.klant_sife {
+	border: 0.05em #000000 solid;
+	padding: 1em;
+	margin: 0.50em;
+}
+.klant_arttrack {
+	border: 0.05em #000000 solid;
+	padding: 1em;
+	margin: 0.50em;
+}
+.klant_penpalpenpets {
+	border: 0.05em #000000 solid;
+	padding: 1em;
+	margin: 0.50em;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+.content_left {
+	padding-left: 1.55em;
+}
+#header {
+	background-image: url("../image/bg_top.jpg");
+	background-repeat: repeat-x;
+}
+.informatie_tekst {
+	font-size: 10pt;
+	width: 240px;
+	letter-spacing: 0.10em;
+	word-spacing: 0.15em;
+	line-height: 1.55em;
+}
+#contact_gegevens {
+	margin-left: -0.45em;
+	background-color: #CFE344;
+	border-top: 0.05em #000000 solid;
+	border-bottom: 0.05em #000000 solid;
+}
+#contact_gegevens dl {
+	margin-left: -10px;
+}
+.web-adres {
+	margin-bottom: 10px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 480px) {
+/* Styles */
+#content_wrap {
+	display:table;
+	width:100%;
+	background-color:#FFF;
+}
+#box {
+	display:table-row;
+}
+.content_left{
+	display:table-cell;
+	width:75em;
+	padding-left:1.55em;
+}	
+.content_right{
+	display:table-cell;
+	padding-left:2em;
+	padding-right:1em;
+}	
+#header {
+	background-image:url("../image/bg_top.jpg");
+	background-repeat:repeat-x;
+}
+.informatie_tekst {
+	font-size:10pt;
+	width:41em;
+	letter-spacing:0.10em;
+	word-spacing:0.15em;
+	line-height:1.55em;
+}
+#contact_gegevens {
+	width:12em;
+	margin-left:-0.45em;
+	background-color: #CFE344;
+	border:0.05em #000000 solid;
+}
+#contact_gegevens dl {
+	margin-left:-1em;}
+
+#klanten_box {
+	margin-left:-0.50em;
+}
+.klant_sife {
+	border:0.05em #000000 solid;
+	padding:1em;
+	margin:0.50em;
+}
+.klant_arttrack {
+	border:0.05em #000000 solid;
+	padding:1em;
+	margin:0.50em;
+}
+.klant_penpalpenpets {
+	border:0.05em #000000 solid;
+	padding:1em;
+	margin:0.50em;
+}
+}
